@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'ansible-playbook ${playbook_name} -i inventories.yml'
+                echo 'DEPloyment to be triggered here.'
             }
         }
     }
