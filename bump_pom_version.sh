@@ -28,7 +28,7 @@
  }
  function generateartifactpfile() {
 	zip generalartifactapp-${NEXT_PROJECT_VERSION}.zip *
-	curl -H "X-JFrog-Art-Api:AKCp8nyhpSTEs2M1mHA51CJvTJHN2qzuByLdXQUTkkJkcDXgaLZ17qXzqwsGTWdSZjjxyaEsV" -T generalartifactapp-${NEXT_PROJECT_VERSION}.zip "https://balrajnikhildevops.jfro.io/artifactory/example-repo-local/generalartifactapp-${NEXT_PROJECT_VERSION}.zip"
+	curl -H "X-JFrog-Art-Api:AKCp8nyhpSTEs2M1mHA51CJvTJHN2qzuByLdXQUTkkJkcDXgaLZ17qXzqwsGTWdSZjjxyaEsV" -T generalartifactapp-${NEXT_PROJECT_VERSION}.zip "https://balrajnikhildevops.jfrog.io/artifactory/example-repo-local/generalartifactapp-${NEXT_PROJECT_VERSION}.zip"
  }
 bumpversion
 updatePomToNextVersion
