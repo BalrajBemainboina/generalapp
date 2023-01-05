@@ -12,7 +12,7 @@ pipeline {
         stage('Push to Jfrog Artifactory') {
             steps {
                     rtUpload (
-                        serverId: 'balrajnikhildevops',
+                        serverId: 'artifactory',
                         spec: '''{
                                 "files": [
                                     {
